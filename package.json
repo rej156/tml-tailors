@@ -1,0 +1,37 @@
+{
+  "name": "tml-tailors",
+  "version": "1.0.0",
+  "description": "TML Tailors",
+  "main": "index.js",
+  "scripts": {
+    "start": "sitegen-serve",
+    "build": "sitegen-build",
+    "deploy": "surge ./output www.tmltailors.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rej156/tml-tailors.git"
+  },
+  "author": "Eric Juta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rej156/tml-tailors/issues"
+  },
+  "homepage": "https://github.com/rej156/tml-tailors#readme",
+  "dependencies": {
+    "lost": "^7.0.1",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-include": "^0.3.1",
+    "postcss-loader": "^0.9.1",
+    "postcss-responsive-type": "^0.4.0",
+    "postcss-simple-vars": "^3.0.0",
+    "postcss-url": "^5.1.2",
+    "react": "^15.2.0",
+    "react-css-components": "^1.0.0",
+    "react-dom": "^15.2.0",
+    "react-responsive-carousel": "^3.0.12",
+    "react-slick": "^0.12.2",
+    "sitegen": "^0.29.0",
+    "url-loader": "^0.5.7"
+  }
+}

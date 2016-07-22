@@ -1,0 +1,49 @@
+HomepageBanner {
+  lost-flex-container: row;
+}
+
+HomepageImage {
+  base: img;
+  margin: auto;
+}
+
+Content {
+}
+
+Copy {
+  text-align: center;
+  & > p {
+    padding-top: 35px;
+  }
+}
+
+p {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+:global .contactLogo {
+  height: 20px;
+  width: 20px;
+  font-size: responsive;
+  margin-right: 8px;
+}
+
+:global .address {
+  lost-column: 1/2;
+}
+
+:global .aboutUs {
+  lost-column: 1/2;
+}
+
+:global .homeDetails {
+  lost-flex-container: row;
+  & p {
+    text-align: left;
+  }
+  & h3 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+}
